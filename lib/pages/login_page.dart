@@ -1,4 +1,3 @@
-import 'package:ebuy/pages/home_page.dart';
 import 'package:ebuy/pages/navigation_bar.dart';
 import 'package:ebuy/pages/sign_up_page.dart';
 import 'package:ebuy/provider/user_provider.dart';
@@ -11,6 +10,7 @@ class LoginPage extends ConsumerStatefulWidget {
   const LoginPage({super.key});
 
   @override
+  // ignore: library_private_types_in_public_api
   _LoginPageState createState() => _LoginPageState();
 }
 
